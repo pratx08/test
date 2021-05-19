@@ -1,0 +1,28 @@
+.outer-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 30px 30px -2px rgba(0, 0, 0, 0.4);
+}
+
+span
+{
+    color: red;
+}
+
+input[type="email"]
+{
+    width: 300px;
+}

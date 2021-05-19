@@ -1,0 +1,28 @@
+.outer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBtn
+{
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.4);
+}
+
+.formBtn:focus
+{
+    outline:none;
+}
+
+.formBtn:active
+{
+    background-color: black;
+    color: white;
+}

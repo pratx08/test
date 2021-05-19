@@ -1,0 +1,67 @@
+.outer-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 30px 30px -2px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"], input[type="date"]
+{
+    width: 300px;
+}
+
+select
+{
+    width: 300px;
+}
+
+button
+{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+span
+{
+    color: red;
+}
+
+.Timings
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 0;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px -2px rgba(0, 0, 0, 0.4);
+    color: black;
+}
